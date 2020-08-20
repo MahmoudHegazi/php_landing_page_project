@@ -95,8 +95,8 @@ by the way if i copy the code in db.php and add it here it will work to without 
     
     ?>
 				     
-// not we close loop before footer we don't need to get 4 footers we use loop in something gonna reapted
-// messages, friends, table, posts, gallery, todo tasks, notifications			     
+<!-- not we close loop before footer we don't need to get 4 footers we use loop in something gonna reapted -->
+<!-- messages, friends, table, posts, gallery, todo tasks, notifications -->			     
   </main>
   <footer class="page__footer">
     <p>&copy Udacity</p>
@@ -104,9 +104,9 @@ by the way if i copy the code in db.php and add it here it will work to without 
   
 
   
-// connect our html code to the javascript in order to create dynamic nav bar detect sections count and create new li for each section
-// using for loop
-			      append li tags to   			      
+<!-- connect our html code to the javascript in order to create dynamic nav bar detect sections count and create new li for each section -->
+	
+	<!-- replace this with your javascript file or paster your js code inside the file then do laragon steps -->
 <script src="app.js"></script>
 
 
