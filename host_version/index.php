@@ -52,13 +52,13 @@ by the way if i copy the code in db.php and add it here it will work to without 
 	  //mysqli_fetch_assoc($res) it return all rows in associative array (kind of arrays) 
     while ($row = mysqli_fetch_assoc($res)) {
 	    
-	 // set new var section_id and assgin to it the first row id usaully it will return 1   
+	 // set new var section_id and assgin to it the first cell value in column id in the first row it will be 1  and so on until it print all recoreds returend
 	 $section_id = $row['id'];
 	    
-	 // set new var section_title and assgin to it the first row title in the database should be Section 1    
+	 // set new var section_title and assgin to  the first cell value in column title in the first row it will be Section 1
 	 $section_title = $row['name'];
 	    
-	 // set new var section_ details and assgin to it the first row, first value in detail column in the database should be Section 1   
+	 // set new var section_ details and assgin to it the first cell value in column deatils in the first row it will be the post cotent or section content   
 	 $section_deatlis = $row['details'];
         
     // I did not forget the end } but I leave it open in order to let while loop reapeate th html section below   
