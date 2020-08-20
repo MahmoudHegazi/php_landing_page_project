@@ -116,3 +116,6 @@ Web students: get ready for “Landing Page” walkthrough webinar! Download Thi
 
 Inline-style: 
 ![alt text](project2.PNG "Logo Title Text 1")
+
+
+
