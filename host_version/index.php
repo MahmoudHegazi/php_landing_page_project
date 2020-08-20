@@ -1,6 +1,9 @@
+<!-- you can use php with html but the file extension will be .php not .html -->
+
+<!-- connect the server to the database in order to excute database query or search for something in the database
+by the way if i copy the code in db.php and add it here it will work to without include
+// we use include in order to use the same file in all or project fills using small line we need at least 6 files in good project -->
 <?php include 'db.php'; ?>
-
-
 
 
 <!DOCTYPE html>
@@ -37,19 +40,39 @@
 
 	   
 	       <?php 
-	 global $con;
-	 
-	 
-	$query = "SELECT * FROM sections ";
+	  
+    global $con;
+    // get all recoreds in the database table name sections	  
+    $query = "SELECT * FROM sections ";
+    // excute the query on the database	
     $res = mysqli_query($con, $query);
 
-
+   // use while/for to loop in the 
+	  
+	  //mysqli_fetch_assoc($res) it return all rows in associative array (kind of arrays) 
     while ($row = mysqli_fetch_assoc($res)) {
+	    
+	 // set new var section_id and assgin to it the first row id usaully it will return 1   
 	 $section_id = $row['id'];
+	    
+	 // set new var section_title and assgin to it the first row title in the database should be Section 1    
 	 $section_title = $row['name'];
+	    
+	 // set new var section_ details and assgin to it the first row, first value in detail column in the database should be Section 1   
 	 $section_deatlis = $row['details'];
-
-
+        
+    // I did not forget the end } but I leave it open in order to let while loop reapeate th html section below   
+    // the while loop ($row = mysqli_fetch_assoc($res)) means after we excute the query result it return 
+    // rows every row have data for 1 section , id , name, deatlis I added only 4 posts to database so the result
+    // from my query will be 4 rows returned, so when $row reach row number 4 in the result associative array which is last recored
+    // stop the while loop so we will copy that section 4 times each time have the same recored data cells  name, deatlis, id but with defirent values
+    // The Dynamic Action here we then echo in our template section the     $section_title,  $section_deatlis 
+    // and $section_id we added before it using concat [ . ] full stop = +  "We add section becuase u can use id = number in html atr"
+    // result will be 4 sections each section get the data from the database, and each section has an id with the same order 123456 - 999999999
+    // section1, section2, section3, section4	 and we close the while loop that must be happend or we will loop for ever 
+	    
+	    
+	    
     
     ?>
     
@@ -61,11 +84,15 @@
     </section>
     
     
-    <?php      
+    <?php     
+	    // another php line code to close the while loop
+	    // php like javascript we use <script> // code</script> with php <?php //code ?>
          }
     
     ?>
-   
+				     
+// not we close loop before footer we don't need to get 4 footers we use loop in something gonna reapted
+// messages, friends, table, posts, gallery, todo tasks, notifications			     
   </main>
   <footer class="page__footer">
     <p>&copy Udacity</p>
@@ -73,7 +100,9 @@
   
 
   
-
+// connect our html code to the javascript in order to create dynamic nav bar detect sections count and create new li for each section
+// using for loop
+			      append li tags to   			      
 <script src="app.js"></script>
 
 
