@@ -30,7 +30,7 @@ Web students: get ready for “Landing Page” walkthrough webinar! Download Thi
 
 ## like this
 
-```
+```php
 <!-- header info and body -->
 <!DOCTYPE html>
 <html lang="en">
