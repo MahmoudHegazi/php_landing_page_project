@@ -76,9 +76,13 @@ by the way if i copy the code in db.php and add it here it will work to without 
     
     ?>
     
-    <section id="<?php echo 'section' . $section_id . '"' ?> data-nav="Section 1" class="your-active-class">
+	  <!-- print the section id next after section text id ++ -->
+    <section id="<?php echo 'section' . $section_id . '"'; ?> data-nav="'Section' . <?php echo . $section_id . '"'; ?> class="your-active-class">
       <div class="landing__container">
+	      <!-- echo used to print the returned title for each row -->
         <h2><?php echo $section_title ?></h2>
+	      
+	       <!-- print out the post deatils direct inside the html we get all data from thhe database-->
         <p><?php echo $section_deatlis; ?></p>
       </div>
     </section>
