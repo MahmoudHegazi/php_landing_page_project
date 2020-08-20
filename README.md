@@ -2,6 +2,14 @@
 Web students: get ready for “Landing Page” walkthrough webinar! Download This 
 
 
+## Why I need Use This?
+
+*  this going to help you to test diffrent values
+*  if you did this project you can call yourself full stack web developer
+*  we will reach the course goal learn dynamic 
+*  If you finished this proejct using my php_landing_page_project solution will help you test easy and learn PHP and MySQL basics
+*  you will be able to host locally your new projcts or create new apps
+
 # steps:
 1. download the project folders.
 2. Download Laragon.
