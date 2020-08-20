@@ -42,7 +42,7 @@ by the way if i copy the code in db.php and add it here it will work to without 
 	       <?php 
 	  
     global $con;
-    // get all recoreds in the database table name sections	  
+    // get all recoreds in the database table  sections	  
     $query = "SELECT * FROM sections ";
     // excute the query on the database	
     $res = mysqli_query($con, $query);
