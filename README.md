@@ -1,5 +1,9 @@
 # php_landing_page_project
-Web students: get ready for “Landing Page” walkthrough webinar! Download This 
+### Web students: get ready for “Landing Page” walkthrough webinar! Download This 
+
+# Important:
+* Last updated Version 8/21/2020 5:20PM 
+* Please Download It after this date
 
 
 ## Why I need Use This?
