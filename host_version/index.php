@@ -15,7 +15,7 @@ by the way if i copy the code in db.php and add it here it will work to without 
   <title>Manipulating the DOM</title>
   <!-- Load Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
- <link rel="stylesheet" type="text/css" href="style.css">
+ <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
   <!-- HTML Follows BEM naming conventions 
@@ -90,7 +90,7 @@ by the way if i copy the code in db.php and add it here it will work to without 
     
     <?php     
 	    // another php line code to close the while loop
-	    // php like javascript we use <script> // code</script> with php <?php //code ?>
+	    // php like javascript we use <script> // code</script> with php <?php //code 
          }
     
     ?>
@@ -107,7 +107,7 @@ by the way if i copy the code in db.php and add it here it will work to without 
 <!-- connect our html code to the javascript in order to create dynamic nav bar detect sections count and create new li for each section -->
 	
 	<!-- replace this with your javascript file or paster your js code inside the file then do laragon steps -->
-<script src="app.js"></script>
+<script src="js/app.js"></script>
 
 
 </body>
