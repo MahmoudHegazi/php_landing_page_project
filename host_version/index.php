@@ -77,7 +77,7 @@ by the way if i copy the code in db.php and add it here it will work to without 
     ?>
     
 	  <!-- print the section id next after section text id ++ -->
-    <section id="<?php echo 'section' . $section_id . '"'; ?> data-nav="'Section' . <?php echo . $section_id . '"'; ?> class="your-active-class">
+    <section id="<?php echo 'section' . $section_id . '"'; ?> data-nav="'Section' . <?php echo . $section_id . '"'; ?> class="section">
       <div class="landing__container">
 	      <!-- echo used to print the returned title for each row -->
         <h2><?php echo $section_title ?></h2>
