@@ -3,7 +3,7 @@
 
 # Important:
 * Last updated Version 8/21/2020 5:20PM 
-* Please Download It after this date
+* Please re-download It if you downloaded it before this date
 
 
 ## Why I need Use This?
